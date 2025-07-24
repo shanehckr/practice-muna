@@ -1,3 +1,45 @@
 * {
     background-color:red;
 }
+
+.form-container {
+    margin: 0;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    }
+
+.input-password {
+    padding: 10px;
+     width: 250px;
+    font-size: 16px;
+ border: 1px solid #ccc;
+ border-radius: 8px; 
+ outline: none;
+    }
+
+
+.btn {
+    padding: 10px 20px;
+ width: 250px;
+    font-size: 16px;
+ background: #007bff;
+    color: white;
+    border: none;
+ border-radius: 8px; /* Same rounded corners */
+ cursor: pointer;
+    transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+         background: #0056b3;
+        }
+
+    
+    
+
+
